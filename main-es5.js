@@ -9708,7 +9708,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, DataService);
 
         this.http = http;
-        this.uri = 'http://programmingzen.org/openlair';
+        this.uri = 'https://programmingzen.org/openlair';
       }
 
       _createClass(DataService, [{
