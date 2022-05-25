@@ -8152,7 +8152,7 @@ let DataService = class DataService {
     //198.187.29.73
     constructor(http) {
         this.http = http;
-        this.uri = 'https://programmingzen.org/openlair';
+        this.uri = 'http://programmingzen.org/openlair';
     }
     getdata() {
         return this.http.get(`${this.uri}/display/data`);
